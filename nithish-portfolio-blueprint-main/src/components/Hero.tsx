@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Github, Linkedin } from 'lucide-react';
+import profileImage from '/assets/388a197e-b6f9-4b7c-bb88-e3022edcce0e.png';
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -137,7 +138,7 @@ CORE COMPETENCIES
           <div className="relative">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden bg-gradient-to-br from-blue-100 to-blue-50 shadow-2xl backdrop-blur-lg border border-white/20">
               <img 
-                src="/assets/388a197e-b6f9-4b7c-bb88-e3022edcce0e.png" 
+                src={profileImage}
                 alt="Nithish K P" 
                 className="w-full h-full object-cover"
               />
